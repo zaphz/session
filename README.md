@@ -32,9 +32,9 @@ Session data is _not_ saved in the cookie itself, just the session ID.
 
 #### Options
 
-  - `name` - cookie name (formerly known as `key`). (default: `'connect.sid'`)
-  - `store` - session store instance.
-  - `secret` - session cookie is signed with this secret to prevent tampering.
+  - `name` - cookie 名称 (前身 as `key`). (default: `'connect.sid'`)
+  - `store` - 回话存储实例。
+  - `secret` - 会话cookie是签署了这个秘密,防止篡改。
   - `cookie` - session cookie settings.
     - (default: `{ path: '/', httpOnly: true, secure: false, maxAge: null }`)
   - `genid` - function to call to generate a new session ID. (default: uses `uid2` library)
